@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists Page</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f4f4f9;
+        }
+        
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* 1. Custom Ordered List Style (Uppercase Roman Numerals) */
+        .custom-ordered {
+            list-style-type: upper-roman;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        /* 2. Custom Unordered List Style (Square bullets) */
+        .custom-unordered {
+            list-style-type: square;
+            color: #e67e22;
+        }
+
+        /* 3. Definition List Styling */
+        dt {
+            font-weight: bold;
+            color: #2980b9;
+            margin-top: 10px;
+        }
+        dd {
+            margin-left: 20px;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Lists Demonstration</h1>
+
+    <section>
+        <h2>Ordered List (Roman Numerals)</h2>
+        <ol class="custom-ordered">
+            <li>Analysis Phase</li>
+            <li>Design Phase</li>
+            <li>Development Phase</li>
+            <li>Testing Phase</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Unordered List (Square Bullets)</h2>
+        <ul class="custom-unordered">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Definition List</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language - the standard markup language for documents designed to be displayed in a web browser.</dd>
+            
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets - used for describing the presentation of a document written in a markup language.</dd>
+            
+            <dt>HTTP</dt>
+            <dd>Hypertext Transfer Protocol - the foundation of any data exchange on the Web.</dd>
+        </dl>
+    </section>
+
+</body>
+</html>

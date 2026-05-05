@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatting Page</title>
+    <style>
+        /* Requirement: Background color for the page */
+        body {
+            background-color: #f0f4f8;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        /* Requirement: A <div> with styling */
+        .styled-box {
+            background-color: #ffffff;
+            border: 2px solid #3498db;
+            border-radius: 8px;
+            padding: 15px;
+            width: fit-content;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Formatting Demonstration</h1>
+
+    <div class="styled-box">
+        <h3>Styled Div Element</h3>
+        <p>This container demonstrates CSS styling applied to a div.</p>
+    </div>
+
+    <hr>
+
+    <h3>Preformatted Text (&lt;pre&gt;)</h3>
+    <pre>
+        This text is inside a 'pre' tag.
+        It preserves    spaces 
+        and line breaks 
+        exactly as written in the code.
+    </pre>
+
+    <hr>
+
+    <h3>Blank Spaces (&amp;nbsp;)</h3>
+    <p>Below is a demonstration of manual spacing:</p>
+    <p>Normal Space: Word Word</p>
+    <p>Using &amp;nbsp;: Word&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Word (6 non-breaking spaces applied)</p>
+
+</body>
+</html>
